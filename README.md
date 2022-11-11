@@ -14,7 +14,8 @@ When the division of two integers an equation that looks like the following:
 ```
 
 where :
-_ A is the dividend
-_ B is the divisor
-_ Q is the quotient
-_ R is the reminder
+
+- A is the dividend
+- B is the divisor
+- Q is the quotient
+- R is the reminder
