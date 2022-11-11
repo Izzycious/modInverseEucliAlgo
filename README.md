@@ -19,3 +19,7 @@ where :
 - B is the divisor
 - Q is the quotient
 - R is the reminder
+
+On the reminder when we divide `A/B` operator is called **MOD**.
+
+### Converting a positive integer in a Modular Arithemetic
