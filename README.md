@@ -10,5 +10,11 @@ When the division of two integers an equation that looks like the following:
 
 ```
     A/B = Q reminder R
-    //this
+
 ```
+
+where :
+_ A is the dividend
+_ B is the divisor
+_ Q is the quotient
+_ R is the reminder
