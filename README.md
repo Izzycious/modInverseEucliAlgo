@@ -23,3 +23,6 @@ where :
 On the reminder when we divide `A/B` operator is called **MOD**.
 
 ### Converting a positive integer in a Modular Arithemetic
+
+The Euclidean Algorithm is a set of instructions for finding the greatest common divisor
+of any two positive integers
