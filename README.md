@@ -43,6 +43,8 @@ Shows:
     r = r2q3 + r3, 0 < r3 < r3
 
     rj−2 = rj−1qj + rj , 0 < rj < rj−1
+
+    rj−1 = rjqj+1
 ```
 
 A quick exaample on the Implementation
@@ -56,4 +58,28 @@ Finding the gcd of(7469, 2464) using the Euclidean Algorithm:
     2464 = 77(32) + 0
 
  gcd(7467, 2464) = 32
+```
+
+## MULTIPLICATIVE INVERSE (EUCLIDEAN ALGORITHM)
+
+Given two integers `0 < b < a`, considering the euclidean equation which will yield the `gcd(a,b) = r`.
+
+Rewriting all the equation except the last equations by solving for the reminders.
+
+```
+    r = a - bq
+
+    r2 = b - rq2
+
+    r3 = r1 - r2q3
+
+    Therefore, rj−1 = rj−3 − rj−2qj−1
+
+                rj = rj−2 − rj−1qj
+```
+
+The last of the equation `rj = rj−2 − rj−1qj` will replace `rj-1` with its expression in terms of `rj-3` and `rj-2` from the equation immediatialy above it, continueing the process successively replacing `rj-2`, `rj-3` and so till a final equation is obtained.
+
+```
+    rj = ax + by
 ```
