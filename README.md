@@ -32,3 +32,15 @@ of any two positive integers.
 ```
 
 The euclidean Algorithm shows that given two integers `0 < b < a`, where we can say the making of the repeated division to a obtain a series of division equation which will be eventually terminated at the reminder of `0`.
+
+Shows:
+
+```
+    a = bq1 + r1, 0 < r1 < b
+
+    b = r1q2 + r2, 0 < r2 < r1
+
+    r = r2q3 + r3, 0 < r3 < r3
+
+    rj−2 = rj−1qj + rj , 0 < rj < rj−1
+```
