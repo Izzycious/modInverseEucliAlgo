@@ -25,4 +25,11 @@ On the reminder when we divide `A/B` operator is called **MOD**.
 ### Converting a positive integer in a Modular Arithemetic
 
 The Euclidean Algorithm is a set of instructions for finding the greatest common divisor
-of any two positive integers
+of any two positive integers.
+
+```
+    a = bq + R
+
+```
+
+The euclidean Algorithm shows that given two integers `0 < b < a`, where we can say the making of the repeated division to a obtain a series of division equation which will be eventually terminated at the reminder of `0`.
