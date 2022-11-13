@@ -44,3 +44,16 @@ Shows:
 
     rj−2 = rj−1qj + rj , 0 < rj < rj−1
 ```
+
+A quick exaample on the Implementation
+Finding the gcd of(7469, 2464) using the Euclidean Algorithm:
+
+```
+//from the equation a = bq + R
+
+    7469 = 2464q + R
+    7469 = 2464(3) + 77
+    2464 = 77(32) + 0
+
+ gcd(7467, 2464) = 32
+```
