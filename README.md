@@ -83,3 +83,18 @@ The last of the equation `rj = rj−2 − rj−1qj` will replace `rj-1` with its
 ```
     rj = ax + by
 ```
+
+Where `x` and `y` are the integers, in the special case that `gcd(a,b) = 1`.
+The integer equation reads
+
+```
+    1 = ax + by
+```
+
+Therefore, we deduce.
+
+```
+    1 ≡ by mod a
+```
+
+So that the residue of `y` is the multiplicative inverse of `b`, mod a.
