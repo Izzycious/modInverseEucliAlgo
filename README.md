@@ -10,7 +10,6 @@ When the division of two integers an equation that looks like the following:
 
 ```
     A/B = Q reminder R
-
 ```
 
 where :
