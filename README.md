@@ -1,6 +1,6 @@
 # modInverseEucliAlgo
 
-The Aim is to understand how cryptography works and to do so, the basic understanding of **Modular Arithemetic** is needed. Upon understanding this will we be able to write a distinct programme that calculates the **modular multiplicative inverse** of a number using the Euclidean Algorithm.
+The Aim is to understand how cryptography and to do so, the basic understanding of **Modular Arithemetic** is needed. Upon understanding this will we be able to write a distinct programme that calculates the **modular multiplicative inverse** of a number using the Euclidean Algorithm.
 
 ## This is a workthrough to calculate the modular multiplicative inverse of a number using Euclidean Algorithm
 
@@ -29,6 +29,12 @@ of any two positive integers.
 ```
     a = bq + R
 ```
+
+To understand more on the basics of **Modular Arithemetic** before going into the Euclidean ALGORITHM
+
+[Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography#modarithmetic) gives a good explanation it.
+
+For [video](https://www.youtube.com/watch?v=68Pqir_moqA&list=PL1ZN4kabqbof_aDUyIcD6tQntun8LLIgL) context explanation
 
 The euclidean Algorithm shows that given two integers `0 < b < a`, where we can say the making of the repeated division to a obtain a series of division equation which will be eventually terminated at the reminder of `0`.
 
