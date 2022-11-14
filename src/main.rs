@@ -14,6 +14,8 @@ fn mod_inverse(a: isize, module: isize) -> isize {
   Declaring a mutable variable in rust 
   ab, xy 
   This is to note that the values of the will be changed at the continuation of the program while executing
+
+  and also stands for the intergers to be passed in calculating the multiplicative inverse using euclidean algorithm
   */
     let mut ab = (module, a);
     let mut xy = (0, 1);
@@ -21,20 +23,31 @@ fn mod_inverse(a: isize, module: isize) -> isize {
   /*Passing a condition using while loop
     the use of the dot notation is an auto-referencing coercion of types.
 
-    xy = 
+    choosing the while loop is for us to repeatedly execute the code of block statement
+    such that we can fulfil result of 1 while getting our inverser
   */
-   
+   // ab.1 must not be zero
     while ab.1 != 0 {
+      /*
+      Shows that the multiplicative inverse in euclidean algorithm
+        1 ≡ by mod a
+        the value xy.1 mutiplw xy.0(quotient) subtracting the divisor of (ab.0/ab.1) which is the modulus
+        multiplying to the given Reminder
+      */
       xy = (xy.1, xy.0 - (ab.0/ab.1) * xy.1);
+      // This ensures that the modulo multiplicative inverse is always within the modulo
       ab = (ab.1, ab.0 % ab.1);
     }
 
     //implementation of euclidean Algorithm
-
+    /*
+    To pass this such that xy.0 is lesser than 0
+    then our xy.0 is plus or equal to the modulus gotten
+    */
     while xy.0 < 0 {
       xy.0 += module;
     }
-    xy.0
+    xy.0 // here we return the xy.0
   }
 
   fn main() {
