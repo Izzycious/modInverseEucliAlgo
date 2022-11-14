@@ -32,7 +32,7 @@ of any two positive integers.
 
 To understand more on the basics of **Modular Arithemetic** before going into the Euclidean ALGORITHM
 
-[Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography#modarithmetic) gives a good explanation it.
+[Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography#modarithmetic) gives a good explanation on modular arithemetic.
 
 For [video](https://www.youtube.com/watch?v=68Pqir_moqA&list=PL1ZN4kabqbof_aDUyIcD6tQntun8LLIgL) context explanation
 
