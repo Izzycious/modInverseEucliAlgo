@@ -30,9 +30,16 @@ fn mod_inverse(a: isize, module: isize) -> isize {
     while ab.1 != 0 {
       /*
       Shows that the multiplicative inverse in euclidean algorithm
-        1 ≡ by mod a
-        the value xy.1 mutiplw xy.0(quotient) subtracting the divisor of (ab.0/ab.1) which is the modulus
-        multiplying to the given Reminder
+        1 ≡ by mod a which can also be denoted as R = a - bq
+        * where R is the reminder
+          a is an integer
+          b is an integer
+          q is a quotient
+        
+        the value xy.1 xy.0 subtracting the divisor of (ab.0/ab.1) which is the modulus
+        multiplying to the given quotient
+        xy.1 is the quotient
+        xy.0 is the first integer
       */
       xy = (xy.1, xy.0 - (ab.0/ab.1) * xy.1);
       // This ensures that the modulo multiplicative inverse is always within the modulo
