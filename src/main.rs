@@ -17,7 +17,7 @@ fn mod_inverse(a: isize, module: isize) -> isize {
 
   and also stands for the intergers to be passed in calculating the multiplicative inverse using euclidean algorithm
   */
-    let mut ab = (module, a);
+    let mut ab = (module, a); //
     let mut xy = (0, 1);
 
   /*Passing a condition using while loop
@@ -36,14 +36,15 @@ fn mod_inverse(a: isize, module: isize) -> isize {
           b is an integer
           q is a quotient
         
-        the value xy.1 xy.0 subtracting the divisor of (ab.0/ab.1) which is the modulus
+        the value xy = xy.0 subtracting the divisor of (ab.0/ab.1) which is the modulus
         multiplying to the given quotient
         xy.1 is the quotient
-        xy.0 is the first integer
       */
       xy = (xy.1, xy.0 - (ab.0/ab.1) * xy.1);
       // This ensures that the modulo multiplicative inverse is always within the modulo
-      ab = (ab.1, ab.0 % ab.1);
+      ab = (ab.1, ab.0 % ab.1); 
+      // This division goes to showing that inputted number to give the R- remainder
+      // That's why we use the module % to get the ab
     }
 
     //implementation of euclidean Algorithm
@@ -58,5 +59,5 @@ fn mod_inverse(a: isize, module: isize) -> isize {
   }
 
   fn main() {
-    println!("{}", mod_inverse(482, 790)) // print the mod inverse of the value passed which is (482,790)
+    println!("{}", mod_inverse(8,11)) // print the mod inverse of the value passed which is (482,790)
   }
