@@ -1,6 +1,6 @@
 # modInverseEucliAlgo
 
-The Aim is to understand how cryptography and to do so, the basic understanding of **Modular Arithemetic** is needed. Upon understanding this will we be able to write a distinct programme that calculates the **modular multiplicative inverse** of a number using the Euclidean Algorithm.
+The Aim is to understand how cryptography works and to do so, the basic understanding of **Modular Arithemetic** is needed. Upon understanding this will we be able to write a distinct programme that calculates the **modular multiplicative inverse** of a number using the Euclidean Algorithm.
 
 **This is a workthrough to calculate the modular multiplicative inverse of a number using Euclidean Algorithm**
 
